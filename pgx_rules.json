@@ -1,0 +1,64 @@
+{
+  "rules": [
+    {
+      "gene": "TPMT",
+      "drug": "Azathioprine",
+      "risk": "Toxic",
+      "recommendation": "Avoid or significantly reduce dose due to TPMT deficiency"
+    },
+    {
+      "gene": "CYP2C19",
+      "drug": "Clopidogrel",
+      "risk": "Ineffective",
+      "recommendation": "Use alternative antiplatelet therapy"
+    },
+    {
+      "gene": "CYP2C9",
+      "drug": "Warfarin",
+      "risk": "Adjust Dose",
+      "recommendation": "Lower starting dose recommended"
+    },
+    {
+      "gene": "SLCO1B1",
+      "drug": "Simvastatin",
+      "risk": "Toxic",
+      "recommendation": "Consider alternative statin due to myopathy risk"
+    },
+    {
+      "gene": "DPYD",
+      "drug": "Fluorouracil",
+      "risk": "Toxic",
+      "recommendation": "Avoid or reduce dose due to risk of severe toxicity"
+    },
+    {
+      "gene": "CYP2D6",
+      "drug": "Codeine",
+      "risk": "Adjust Dose",
+      "recommendation": "Monitor response or adjust dose"
+    },
+    {
+      "gene": "CYP2D6",
+      "drug": "Tramadol",
+      "risk": "Adjust Dose",
+      "recommendation": "Dose adjustment may be required"
+    },
+    {
+      "gene": "CYP2D6",
+      "drug": "Celecoxib",
+      "risk": "Safe",
+      "recommendation": "Standard dosing recommended"
+    },
+    {
+      "gene": "CYP2C19",
+      "drug": "Pantoprazole",
+      "risk": "Safe",
+      "recommendation": "Standard dosing recommended"
+    },
+    {
+      "gene": "CYP2C9",
+      "drug": "Ibuprofen",
+      "risk": "Safe",
+      "recommendation": "Standard dosing recommended"
+    }
+  ]
+}
