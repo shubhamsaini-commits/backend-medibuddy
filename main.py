@@ -72,6 +72,8 @@ async def analyze(file: UploadFile = File(...), selected_drugs: list[str] = Form
                         "recommendation": rule["recommendation"]
                     }
                     break
+        if os.path.exists("temp.vcf"):
+            os.remove("temp.vcf")
 
         results.append(result)
 
@@ -119,5 +121,3 @@ def extract_genes_from_vcf(vcf_path):
 
     return detected
 
-
-os.remove("temp.vcf")
